@@ -41,4 +41,3 @@ if question and uploaded_file:
     # Append the assistant's response to the messages
     st.session_state.messages.append({"role": "assistant", "content": response})
 
-

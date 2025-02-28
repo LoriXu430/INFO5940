@@ -19,7 +19,8 @@ if "messages" not in st.session_state:
 
 # somewhere to keep all those uploaded files
 if "document_store" not in st.session_state:
-    st.session_state["document_store"] = {}  # Store documents in memory
+    # Store documents in memory
+    st.session_state["document_store"] = {}
 
 # Keep track of what AI models can use
 if "available_models" not in st.session_state:
